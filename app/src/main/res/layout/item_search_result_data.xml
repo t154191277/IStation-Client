@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingTop="5dp"
+    android:paddingBottom="5dp"
+    android:paddingLeft="14dp"
+    android:paddingRight="14dp">
+
+    <com.gcssloop.widget.RCRelativeLayout
+        android:layout_weight="4"
+        android:layout_width="0dp"
+        android:layout_height="120dp"
+        app:round_corner="10dp">
+
+        <ImageView
+            android:src="@drawable/profile_cat"
+            android:id="@+id/item_search_result_data_image"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </com.gcssloop.widget.RCRelativeLayout>
+
+    <RelativeLayout
+        android:paddingTop="5dp"
+        android:paddingLeft="12dp"
+        android:layout_weight="6"
+        android:layout_width="0dp"
+        android:layout_height="120dp">
+
+        <TextView
+            android:id="@+id/item_search_result_data_name"
+            android:textSize="12sp"
+            android:textColor="@color/black"
+            android:text="稳品穿搭 INS网红 嘻哈吴亦凡牛仔裤 直筒水洗破洞牛仔裤"
+            android:ellipsize="end"
+            android:maxLines="2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_marginTop="6dp"
+            android:id="@+id/item_search_result_data_desc"
+            android:textSize="10sp"
+            android:text="九核处理器-1G+8G内存-无线wifi"
+            android:layout_below="@id/item_search_result_data_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:textColor="@color/red"
+            android:id="@+id/item_search_result_data_adv"
+            android:textSize="10sp"
+            android:layout_marginTop="58dp"
+            android:text="广告"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:textColor="@color/red"
+            android:textSize="8sp"
+            android:paddingTop="14dp"
+            android:text="￥"
+            android:layout_below="@id/item_search_result_data_adv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/item_search_result_data_price"
+            android:paddingLeft="10dp"
+            android:textColor="@color/red"
+            android:textSize="15sp"
+            android:paddingTop="8dp"
+            android:text="119"
+            android:layout_below="@id/item_search_result_data_adv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/item_search_result_data_salesNum"
+            android:paddingLeft="50dp"
+            android:textSize="8sp"
+            android:paddingTop="15dp"
+            android:text="1871人付款"
+            android:layout_below="@id/item_search_result_data_adv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:textSize="8sp"
+            android:paddingTop="30dp"
+            android:text="北京"
+            android:layout_below="@id/item_search_result_data_adv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:paddingLeft="25dp"
+            android:textSize="8sp"
+            android:textColor="@color/black"
+            android:paddingTop="30dp"
+            android:text="进店>"
+            android:layout_below="@id/item_search_result_data_adv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:paddingTop="10dp"
+            android:src="@drawable/ellipsis"
+            android:id="@+id/item_search_result_data_more"
+            android:layout_marginBottom="3dp"
+            android:layout_marginRight="5dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:textSize="20sp"
+            android:text="..."
+            android:layout_width="20dp"
+            android:layout_height="20dp" />
+    </RelativeLayout>
+
+
+</LinearLayout>

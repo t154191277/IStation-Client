@@ -1,0 +1,87 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clipToPadding="true"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    tools:context="wmlove.istation.fragment.HomeFragment">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/fragment_home_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/status_bar_color"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        app:title="@string/app_name" />
+
+    <RelativeLayout
+        android:id="@+id/title_bar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:id="@+id/search"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="7dp"
+            android:layout_marginEnd="55dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/rl_shape_corner_gray"
+            android:padding="9dp">
+
+            <ImageView
+                android:id="@+id/img_search"
+                android:layout_width="40dp"
+                android:layout_height="32dp"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="8dp"
+                android:padding="2dp"
+                android:src="@drawable/search" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_toEndOf="@id/img_search"
+                android:gravity="center_vertical"
+                android:text="在IStation内搜索" />
+
+        </RelativeLayout>
+
+
+        <ImageView
+            android:id="@+id/img_QR"
+            android:layout_width="35dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentEnd="true"
+            android:layout_marginBottom="10dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="8dp"
+            android:src="@drawable/scan_qr" />
+    </RelativeLayout>
+
+    <com.gcssloop.widget.RCRelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:padding="9dp"
+        app:round_corner="8dp">
+
+        <com.youth.banner.Banner
+            android:id="@+id/banner"
+            android:layout_width="match_parent"
+            android:layout_height="110dp" />
+
+    </com.gcssloop.widget.RCRelativeLayout>
+
+    <ListView
+        android:layout_marginTop="10dp"
+        android:id="@+id/listview_home"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+</LinearLayout>

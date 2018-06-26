@@ -1,0 +1,20 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/MatchWrap"
+    android:orientation="horizontal"
+    android:background="@android:color/white"
+    android:paddingBottom="@dimen/size_level3"
+    android:paddingLeft="@dimen/size_level3"
+    android:paddingRight="@dimen/size_level3"
+    android:paddingTop="@dimen/size_level3">
+
+    <TextView
+        android:id="@+id/tv_item_cascade_goods_name"
+        style="@style/MatchWrap"
+        android:layout_gravity="center_vertical"
+        android:background="@android:color/white"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/textSize_24"
+        tools:text="+86 中国"/>
+</LinearLayout>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 首页导航 -->
+    <string-array name="bottom_bar_labels">
+        <item>"主页"</item>
+        <item>"分类"</item>
+        <item>"购物车"</item>
+        <item>"我的"</item>
+    </string-array>
+
+    <string-array name="search_sort_item">
+        <item>"综合"</item>
+        <item>"销量"</item>
+        <item>"价格降序"</item>
+        <item>"价格升序"</item>
+    </string-array>
+
+    <string-array name="area_item">
+        <item>"中国"</item>
+        <item>"American"</item>
+        <item>"Japan"</item>
+        <item>"Australia"</item>
+        <item>"Russian"</item>
+    </string-array>
+    <string-array name="bottom_bar_icons">
+        <item>@drawable/house_not_press</item>
+        <item>@drawable/arrow_not_press</item>
+        <item>@drawable/shopping_cart_not_press</item>
+        <item>@drawable/me_no_press</item>
+    </string-array>
+
+    <string-array name="istation_normal_icon">
+        <item>@drawable/house_not_press</item>
+        <item>@drawable/arrow_not_press</item>
+        <item>@drawable/shopping_cart_not_press</item>
+        <item>@drawable/me_no_press</item>
+    </string-array>
+
+    <string-array name="istation_selected_icon">
+        <item>@drawable/house_press</item>
+        <item>@drawable/arrow_press</item>
+        <item>@drawable/shopping_cart_press</item>
+        <item>@drawable/me_press</item>
+    </string-array>
+
+</resources>
